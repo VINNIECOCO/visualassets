@@ -177,6 +177,326 @@
         "icon-shield"
       ],
       "description": "盾牌图标（品质/认证）"
+    },
+    {
+      "id": "diagonal-ember-v",
+      "path": "assets/textures/diagonal-ember-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "dots-ice-v",
+      "path": "assets/textures/dots-ice-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "glow-amber-v",
+      "path": "assets/textures/glow-amber-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "glow-ice-blue-v",
+      "path": "assets/textures/glow-ice-blue-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "glow-neon-green-v",
+      "path": "assets/textures/glow-neon-green-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "glow-violet-v",
+      "path": "assets/textures/glow-violet-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-amber-h",
+      "path": "assets/textures/gradient-amber-h.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-amber-v",
+      "path": "assets/textures/gradient-amber-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-deep-blue-h",
+      "path": "assets/textures/gradient-deep-blue-h.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-deep-blue-v",
+      "path": "assets/textures/gradient-deep-blue-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-ember-h",
+      "path": "assets/textures/gradient-ember-h.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-ember-v",
+      "path": "assets/textures/gradient-ember-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-forest-h",
+      "path": "assets/textures/gradient-forest-h.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-forest-v",
+      "path": "assets/textures/gradient-forest-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-graphite-h",
+      "path": "assets/textures/gradient-graphite-h.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-graphite-v",
+      "path": "assets/textures/gradient-graphite-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-ice-blue-h",
+      "path": "assets/textures/gradient-ice-blue-h.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-ice-blue-v",
+      "path": "assets/textures/gradient-ice-blue-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-neon-green-h",
+      "path": "assets/textures/gradient-neon-green-h.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-neon-green-v",
+      "path": "assets/textures/gradient-neon-green-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-violet-h",
+      "path": "assets/textures/gradient-violet-h.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "gradient-violet-v",
+      "path": "assets/textures/gradient-violet-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "noise-business-blue-v",
+      "path": "assets/textures/noise-business-blue-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "radial-amber-v",
+      "path": "assets/textures/radial-amber-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "radial-ice-blue-v",
+      "path": "assets/textures/radial-ice-blue-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "radial-neon-green-v",
+      "path": "assets/textures/radial-neon-green-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "radial-violet-v",
+      "path": "assets/textures/radial-violet-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "tech-grid-glow-v",
+      "path": "assets/textures/tech-grid-glow-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "tech-grid-neon-v",
+      "path": "assets/textures/tech-grid-neon-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "tech-grid-violet-v",
+      "path": "assets/textures/tech-grid-violet-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "wave-neon-v",
+      "path": "assets/textures/wave-neon-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
+    },
+    {
+      "id": "wave-violet-v",
+      "path": "assets/textures/wave-violet-v.jpg",
+      "type": "image",
+      "tags": [
+        "backgrounds",
+        "texture"
+      ],
+      "description": "程序化背景"
     }
   ],
   "updated_at": "2026-08-25",
