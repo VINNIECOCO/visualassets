@@ -4,6 +4,181 @@
   "base_url_raw": "https://raw.githubusercontent.com/USER/vibe-assets/main",
   "base_url_cdn": "https://cdn.jsdelivr.net/gh/USER/vibe-assets@main",
   "usage": "AI 建站/剪辑时读取本文件获取素材清单，拼 base_url + path 引用。",
-  "assets": [],
-  "updated_at": "2026-08-25"
+  "assets": [
+    {
+      "id": "glow-cyan",
+      "path": "assets/textures/glow-cyan.png",
+      "type": "image",
+      "tags": [
+        "textures",
+        "glow-cyan"
+      ],
+      "description": "青色光球光效"
+    },
+    {
+      "id": "glow-purple",
+      "path": "assets/textures/glow-purple.png",
+      "type": "image",
+      "tags": [
+        "textures",
+        "glow-purple"
+      ],
+      "description": "紫色光球光效"
+    },
+    {
+      "id": "gradient-amber",
+      "path": "assets/textures/gradient-amber.png",
+      "type": "image",
+      "tags": [
+        "textures",
+        "gradient-amber"
+      ],
+      "description": "琥珀色渐变背景"
+    },
+    {
+      "id": "gradient-cyan",
+      "path": "assets/textures/gradient-cyan.png",
+      "type": "image",
+      "tags": [
+        "textures",
+        "gradient-cyan"
+      ],
+      "description": "青色渐变背景"
+    },
+    {
+      "id": "gradient-green",
+      "path": "assets/textures/gradient-green.png",
+      "type": "image",
+      "tags": [
+        "textures",
+        "gradient-green"
+      ],
+      "description": "绿色渐变背景"
+    },
+    {
+      "id": "gradient-purple",
+      "path": "assets/textures/gradient-purple.png",
+      "type": "image",
+      "tags": [
+        "textures",
+        "gradient-purple"
+      ],
+      "description": "紫色渐变背景"
+    },
+    {
+      "id": "neon-grid-dark",
+      "path": "assets/textures/neon-grid-dark.png",
+      "type": "image",
+      "tags": [
+        "textures",
+        "neon-grid-dark"
+      ],
+      "description": "科技网格背景（深色发光）"
+    },
+    {
+      "id": "noise-dark",
+      "path": "assets/textures/noise-dark.png",
+      "type": "image",
+      "tags": [
+        "textures",
+        "noise-dark"
+      ],
+      "description": "深色噪点纹理"
+    },
+    {
+      "id": "particles-purple",
+      "path": "assets/textures/particles-purple.png",
+      "type": "image",
+      "tags": [
+        "textures",
+        "particles-purple"
+      ],
+      "description": "紫色粒子光效"
+    },
+    {
+      "id": "product-bottle",
+      "path": "assets/products/placeholder/product-bottle.png",
+      "type": "image",
+      "tags": [
+        "products",
+        "placeholder",
+        "product-bottle"
+      ],
+      "description": "产品概念图-瓶装（占位）"
+    },
+    {
+      "id": "product-box",
+      "path": "assets/products/placeholder/product-box.png",
+      "type": "image",
+      "tags": [
+        "products",
+        "placeholder",
+        "product-box"
+      ],
+      "description": "产品概念图-包装盒（占位）"
+    },
+    {
+      "id": "product-drum",
+      "path": "assets/products/placeholder/product-drum.png",
+      "type": "image",
+      "tags": [
+        "products",
+        "placeholder",
+        "product-drum"
+      ],
+      "description": "产品概念图-桶装（占位）"
+    },
+    {
+      "id": "icon-bolt",
+      "path": "assets/icons/icon-bolt.png",
+      "type": "image",
+      "tags": [
+        "icons",
+        "icon-bolt"
+      ],
+      "description": "闪电图标（速度/效率）"
+    },
+    {
+      "id": "icon-bottle",
+      "path": "assets/icons/icon-bottle.png",
+      "type": "image",
+      "tags": [
+        "icons",
+        "icon-bottle"
+      ],
+      "description": "瓶装图标"
+    },
+    {
+      "id": "icon-factory",
+      "path": "assets/icons/icon-factory.png",
+      "type": "image",
+      "tags": [
+        "icons",
+        "icon-factory"
+      ],
+      "description": "工厂图标"
+    },
+    {
+      "id": "icon-gear",
+      "path": "assets/icons/icon-gear.png",
+      "type": "image",
+      "tags": [
+        "icons",
+        "icon-gear"
+      ],
+      "description": "齿轮图标"
+    },
+    {
+      "id": "icon-shield",
+      "path": "assets/icons/icon-shield.png",
+      "type": "image",
+      "tags": [
+        "icons",
+        "icon-shield"
+      ],
+      "description": "盾牌图标（品质/认证）"
+    }
+  ],
+  "updated_at": "2026-08-25",
+  "asset_count": 17
 }
