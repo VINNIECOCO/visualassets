@@ -1,142 +1,2727 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "updated": "2026-08-18",
   "purpose": "vibe-coding 建站 + AI 视频剪辑视觉素材中枢",
   "readme": "README.md",
+  "asset_count": 177,
   "structure": {
-    "images/products/leadchem": "LeadChem UV/水性材料产品图",
-    "images/products/lisheng": "力圣木工胶产品图",
-    "images/factory": "工厂/车间实拍",
-    "images/backgrounds": "背景/纹理/渐变",
-    "images/ai-generated": "AI 生成素材",
-    "videos/broll": "B-roll 视频素材",
-    "videos/product-demos": "产品演示视频",
-    "audio/bgm": "免版权背景音乐",
-    "audio/sfx": "音效",
-    "ui-assets/icons": "图标",
-    "ui-assets/logos": "品牌 logo",
-    "ui-assets/fonts": "字体"
+    ".git": "dir",
+    ".git/branches": "dir",
+    ".git/hooks": "dir",
+    ".git/info": "dir",
+    ".git/logs": "dir",
+    ".git/logs/refs": "dir",
+    ".git/logs/refs/heads": "dir",
+    ".git/objects": "dir",
+    ".git/objects/07": "dir",
+    ".git/objects/17": "dir",
+    ".git/objects/26": "dir",
+    ".git/objects/30": "dir",
+    ".git/objects/33": "dir",
+    ".git/objects/35": "dir",
+    ".git/objects/3a": "dir",
+    ".git/objects/40": "dir",
+    ".git/objects/44": "dir",
+    ".git/objects/48": "dir",
+    ".git/objects/4d": "dir",
+    ".git/objects/64": "dir",
+    ".git/objects/71": "dir",
+    ".git/objects/77": "dir",
+    ".git/objects/81": "dir",
+    ".git/objects/85": "dir",
+    ".git/objects/8c": "dir",
+    ".git/objects/9c": "dir",
+    ".git/objects/aa": "dir",
+    ".git/objects/ae": "dir",
+    ".git/objects/be": "dir",
+    ".git/objects/c9": "dir",
+    ".git/objects/cd": "dir",
+    ".git/objects/d4": "dir",
+    ".git/objects/d5": "dir",
+    ".git/objects/da": "dir",
+    ".git/objects/e6": "dir",
+    ".git/objects/eb": "dir",
+    ".git/objects/f6": "dir",
+    ".git/objects/ff": "dir",
+    ".git/objects/info": "dir",
+    ".git/objects/pack": "dir",
+    ".git/refs": "dir",
+    ".git/refs/heads": "dir",
+    ".git/refs/tags": "dir",
+    "audio": "dir",
+    "audio/bgm": "dir",
+    "audio/sfx": "dir",
+    "images": "dir",
+    "images/ai-generated": "dir",
+    "images/backgrounds": "dir",
+    "images/factory": "dir",
+    "images/products": "dir",
+    "images/products/leadchem": "dir",
+    "images/products/lisheng": "dir",
+    "ui-assets": "dir",
+    "ui-assets/fonts": "dir",
+    "ui-assets/icons": "dir",
+    "ui-assets/logos": "dir",
+    "videos": "dir",
+    "videos/broll": "dir",
+    "videos/product-demos": "dir"
   },
   "assets": [
     {
-      "id": "bg-gradient-dark-red",
-      "path": "images/backgrounds/gradient-dark-red.jpg",
-      "type": "image",
-      "category": "background",
-      "tags": ["gradient", "dark", "red", "premium"],
-      "description": "深红渐变背景（横屏 1920x1080）",
-      "license": "ai-generated",
-      "usage": "website-hero, video-background"
-    },
-    {
-      "id": "bg-gradient-blue-tech",
-      "path": "images/backgrounds/gradient-blue-tech.jpg",
-      "type": "image",
-      "category": "background",
-      "tags": ["gradient", "blue", "tech"],
-      "description": "科技蓝渐变背景（横屏）",
-      "license": "ai-generated",
-      "usage": "website-hero, video-background"
-    },
-    {
-      "id": "bg-gradient-dark-red-9x16",
-      "path": "images/backgrounds/gradient-dark-red-9x16.jpg",
-      "type": "image",
-      "category": "background",
-      "tags": ["gradient", "dark", "red", "vertical"],
-      "description": "深红渐变背景（竖屏 9:16，TikTok 适用）",
-      "license": "ai-generated",
-      "usage": "tiktok-video, reels, story"
-    },
-    {
-      "id": "bg-gradient-blue-tech-9x16",
-      "path": "images/backgrounds/gradient-blue-tech-9x16.jpg",
-      "type": "image",
-      "category": "background",
-      "tags": ["gradient", "blue", "tech", "vertical"],
-      "description": "科技蓝渐变背景（竖屏 9:16）",
-      "license": "ai-generated",
-      "usage": "tiktok-video, reels, story"
-    },
-    {
-      "id": "bg-gradient-soft-warm-9x16",
-      "path": "images/backgrounds/gradient-soft-warm-9x16.jpg",
-      "type": "image",
-      "category": "background",
-      "tags": ["gradient", "soft", "warm", "vertical"],
-      "description": "柔和暖色渐变（竖屏）",
-      "license": "ai-generated",
-      "usage": "tiktok-video, lifestyle"
-    },
-    {
-      "id": "bg-gradient-soft-cool-9x16",
-      "path": "images/backgrounds/gradient-soft-cool-9x16.jpg",
-      "type": "image",
-      "category": "background",
-      "tags": ["gradient", "soft", "cool", "vertical"],
-      "description": "柔和冷色渐变（竖屏）",
-      "license": "ai-generated",
-      "usage": "tiktok-video, lifestyle"
-    },
-    {
-      "id": "bg-dark-neon-1",
-      "path": "images/backgrounds/dark-neon-1.jpg",
-      "type": "image",
-      "category": "background",
-      "tags": ["neon", "dark", "glow", "cyberpunk"],
-      "description": "深色霓虹光晕背景（横屏）",
-      "license": "ai-generated",
-      "usage": "website-hero, gaming-style"
-    },
-    {
-      "id": "bg-dark-neon-1-9x16",
+      "id": "background-images-backgrounds-dark-neon-1-9x16",
       "path": "images/backgrounds/dark-neon-1-9x16.jpg",
       "type": "image",
       "category": "background",
-      "tags": ["neon", "dark", "glow", "vertical"],
-      "description": "深色霓虹光晕背景（竖屏 9:16）",
-      "license": "ai-generated",
-      "usage": "tiktok-video, gaming-style"
+      "tags": [
+        "dark-neon-1-9x16.jpg",
+        "dark",
+        "neon",
+        "9x16"
+      ],
+      "description": "background asset: dark-neon-1-9x16",
+      "license": "own",
+      "usage": "background"
     },
     {
-      "id": "bg-texture-noise-light",
-      "path": "images/backgrounds/texture-noise-light.jpg",
+      "id": "background-images-backgrounds-dark-neon-1",
+      "path": "images/backgrounds/dark-neon-1.jpg",
       "type": "image",
-      "category": "texture",
-      "tags": ["noise", "light", "texture"],
-      "description": "浅色噪点纹理",
-      "license": "ai-generated",
-      "usage": "website-section-bg"
+      "category": "background",
+      "tags": [
+        "dark-neon-1.jpg",
+        "dark",
+        "neon"
+      ],
+      "description": "background asset: dark-neon-1",
+      "license": "own",
+      "usage": "background"
     },
     {
-      "id": "bg-texture-grid-light",
+      "id": "background-images-backgrounds-grad-green-amber-9x16",
+      "path": "images/backgrounds/grad-green-amber-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-amber-9x16.jpg",
+        "grad",
+        "green",
+        "amber",
+        "9x16"
+      ],
+      "description": "background asset: grad-green-amber-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-amber",
+      "path": "images/backgrounds/grad-green-amber.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-amber.jpg",
+        "grad",
+        "green",
+        "amber"
+      ],
+      "description": "background asset: grad-green-amber",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-blue-9x16",
+      "path": "images/backgrounds/grad-green-blue-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-blue-9x16.jpg",
+        "grad",
+        "green",
+        "blue",
+        "9x16"
+      ],
+      "description": "background asset: grad-green-blue-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-blue",
+      "path": "images/backgrounds/grad-green-blue.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-blue.jpg",
+        "grad",
+        "green",
+        "blue"
+      ],
+      "description": "background asset: grad-green-blue",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-cyan-9x16",
+      "path": "images/backgrounds/grad-green-cyan-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-cyan-9x16.jpg",
+        "grad",
+        "green",
+        "cyan",
+        "9x16"
+      ],
+      "description": "background asset: grad-green-cyan-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-cyan",
+      "path": "images/backgrounds/grad-green-cyan.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-cyan.jpg",
+        "grad",
+        "green",
+        "cyan"
+      ],
+      "description": "background asset: grad-green-cyan",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-green-9x16",
+      "path": "images/backgrounds/grad-green-green-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-green-9x16.jpg",
+        "grad",
+        "green",
+        "9x16"
+      ],
+      "description": "background asset: grad-green-green-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-green",
+      "path": "images/backgrounds/grad-green-green.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-green.jpg",
+        "grad",
+        "green"
+      ],
+      "description": "background asset: grad-green-green",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-orange-9x16",
+      "path": "images/backgrounds/grad-green-orange-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-orange-9x16.jpg",
+        "grad",
+        "green",
+        "orange",
+        "9x16"
+      ],
+      "description": "background asset: grad-green-orange-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-orange",
+      "path": "images/backgrounds/grad-green-orange.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-orange.jpg",
+        "grad",
+        "green",
+        "orange"
+      ],
+      "description": "background asset: grad-green-orange",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-pink-9x16",
+      "path": "images/backgrounds/grad-green-pink-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-pink-9x16.jpg",
+        "grad",
+        "green",
+        "pink",
+        "9x16"
+      ],
+      "description": "background asset: grad-green-pink-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-pink",
+      "path": "images/backgrounds/grad-green-pink.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-pink.jpg",
+        "grad",
+        "green",
+        "pink"
+      ],
+      "description": "background asset: grad-green-pink",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-purple-9x16",
+      "path": "images/backgrounds/grad-green-purple-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-purple-9x16.jpg",
+        "grad",
+        "green",
+        "purple",
+        "9x16"
+      ],
+      "description": "background asset: grad-green-purple-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-purple",
+      "path": "images/backgrounds/grad-green-purple.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-purple.jpg",
+        "grad",
+        "green",
+        "purple"
+      ],
+      "description": "background asset: grad-green-purple",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-red-9x16",
+      "path": "images/backgrounds/grad-green-red-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-red-9x16.jpg",
+        "grad",
+        "green",
+        "red",
+        "9x16"
+      ],
+      "description": "background asset: grad-green-red-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-green-red",
+      "path": "images/backgrounds/grad-green-red.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-green-red.jpg",
+        "grad",
+        "green",
+        "red"
+      ],
+      "description": "background asset: grad-green-red",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-amber-9x16",
+      "path": "images/backgrounds/grad-navy-amber-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-amber-9x16.jpg",
+        "grad",
+        "navy",
+        "amber",
+        "9x16"
+      ],
+      "description": "background asset: grad-navy-amber-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-amber",
+      "path": "images/backgrounds/grad-navy-amber.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-amber.jpg",
+        "grad",
+        "navy",
+        "amber"
+      ],
+      "description": "background asset: grad-navy-amber",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-blue-9x16",
+      "path": "images/backgrounds/grad-navy-blue-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-blue-9x16.jpg",
+        "grad",
+        "navy",
+        "blue",
+        "9x16"
+      ],
+      "description": "background asset: grad-navy-blue-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-blue",
+      "path": "images/backgrounds/grad-navy-blue.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-blue.jpg",
+        "grad",
+        "navy",
+        "blue"
+      ],
+      "description": "background asset: grad-navy-blue",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-cyan-9x16",
+      "path": "images/backgrounds/grad-navy-cyan-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-cyan-9x16.jpg",
+        "grad",
+        "navy",
+        "cyan",
+        "9x16"
+      ],
+      "description": "background asset: grad-navy-cyan-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-cyan",
+      "path": "images/backgrounds/grad-navy-cyan.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-cyan.jpg",
+        "grad",
+        "navy",
+        "cyan"
+      ],
+      "description": "background asset: grad-navy-cyan",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-green-9x16",
+      "path": "images/backgrounds/grad-navy-green-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-green-9x16.jpg",
+        "grad",
+        "navy",
+        "green",
+        "9x16"
+      ],
+      "description": "background asset: grad-navy-green-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-green",
+      "path": "images/backgrounds/grad-navy-green.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-green.jpg",
+        "grad",
+        "navy",
+        "green"
+      ],
+      "description": "background asset: grad-navy-green",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-orange-9x16",
+      "path": "images/backgrounds/grad-navy-orange-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-orange-9x16.jpg",
+        "grad",
+        "navy",
+        "orange",
+        "9x16"
+      ],
+      "description": "background asset: grad-navy-orange-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-orange",
+      "path": "images/backgrounds/grad-navy-orange.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-orange.jpg",
+        "grad",
+        "navy",
+        "orange"
+      ],
+      "description": "background asset: grad-navy-orange",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-pink-9x16",
+      "path": "images/backgrounds/grad-navy-pink-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-pink-9x16.jpg",
+        "grad",
+        "navy",
+        "pink",
+        "9x16"
+      ],
+      "description": "background asset: grad-navy-pink-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-pink",
+      "path": "images/backgrounds/grad-navy-pink.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-pink.jpg",
+        "grad",
+        "navy",
+        "pink"
+      ],
+      "description": "background asset: grad-navy-pink",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-purple-9x16",
+      "path": "images/backgrounds/grad-navy-purple-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-purple-9x16.jpg",
+        "grad",
+        "navy",
+        "purple",
+        "9x16"
+      ],
+      "description": "background asset: grad-navy-purple-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-purple",
+      "path": "images/backgrounds/grad-navy-purple.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-purple.jpg",
+        "grad",
+        "navy",
+        "purple"
+      ],
+      "description": "background asset: grad-navy-purple",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-red-9x16",
+      "path": "images/backgrounds/grad-navy-red-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-red-9x16.jpg",
+        "grad",
+        "navy",
+        "red",
+        "9x16"
+      ],
+      "description": "background asset: grad-navy-red-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-navy-red",
+      "path": "images/backgrounds/grad-navy-red.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-navy-red.jpg",
+        "grad",
+        "navy",
+        "red"
+      ],
+      "description": "background asset: grad-navy-red",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-amber-9x16",
+      "path": "images/backgrounds/grad-purple-amber-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-amber-9x16.jpg",
+        "grad",
+        "purple",
+        "amber",
+        "9x16"
+      ],
+      "description": "background asset: grad-purple-amber-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-amber",
+      "path": "images/backgrounds/grad-purple-amber.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-amber.jpg",
+        "grad",
+        "purple",
+        "amber"
+      ],
+      "description": "background asset: grad-purple-amber",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-blue-9x16",
+      "path": "images/backgrounds/grad-purple-blue-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-blue-9x16.jpg",
+        "grad",
+        "purple",
+        "blue",
+        "9x16"
+      ],
+      "description": "background asset: grad-purple-blue-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-blue",
+      "path": "images/backgrounds/grad-purple-blue.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-blue.jpg",
+        "grad",
+        "purple",
+        "blue"
+      ],
+      "description": "background asset: grad-purple-blue",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-cyan-9x16",
+      "path": "images/backgrounds/grad-purple-cyan-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-cyan-9x16.jpg",
+        "grad",
+        "purple",
+        "cyan",
+        "9x16"
+      ],
+      "description": "background asset: grad-purple-cyan-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-cyan",
+      "path": "images/backgrounds/grad-purple-cyan.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-cyan.jpg",
+        "grad",
+        "purple",
+        "cyan"
+      ],
+      "description": "background asset: grad-purple-cyan",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-green-9x16",
+      "path": "images/backgrounds/grad-purple-green-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-green-9x16.jpg",
+        "grad",
+        "purple",
+        "green",
+        "9x16"
+      ],
+      "description": "background asset: grad-purple-green-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-green",
+      "path": "images/backgrounds/grad-purple-green.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-green.jpg",
+        "grad",
+        "purple",
+        "green"
+      ],
+      "description": "background asset: grad-purple-green",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-orange-9x16",
+      "path": "images/backgrounds/grad-purple-orange-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-orange-9x16.jpg",
+        "grad",
+        "purple",
+        "orange",
+        "9x16"
+      ],
+      "description": "background asset: grad-purple-orange-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-orange",
+      "path": "images/backgrounds/grad-purple-orange.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-orange.jpg",
+        "grad",
+        "purple",
+        "orange"
+      ],
+      "description": "background asset: grad-purple-orange",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-pink-9x16",
+      "path": "images/backgrounds/grad-purple-pink-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-pink-9x16.jpg",
+        "grad",
+        "purple",
+        "pink",
+        "9x16"
+      ],
+      "description": "background asset: grad-purple-pink-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-pink",
+      "path": "images/backgrounds/grad-purple-pink.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-pink.jpg",
+        "grad",
+        "purple",
+        "pink"
+      ],
+      "description": "background asset: grad-purple-pink",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-purple-9x16",
+      "path": "images/backgrounds/grad-purple-purple-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-purple-9x16.jpg",
+        "grad",
+        "purple",
+        "9x16"
+      ],
+      "description": "background asset: grad-purple-purple-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-purple",
+      "path": "images/backgrounds/grad-purple-purple.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-purple.jpg",
+        "grad",
+        "purple"
+      ],
+      "description": "background asset: grad-purple-purple",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-red-9x16",
+      "path": "images/backgrounds/grad-purple-red-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-red-9x16.jpg",
+        "grad",
+        "purple",
+        "red",
+        "9x16"
+      ],
+      "description": "background asset: grad-purple-red-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-purple-red",
+      "path": "images/backgrounds/grad-purple-red.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-purple-red.jpg",
+        "grad",
+        "purple",
+        "red"
+      ],
+      "description": "background asset: grad-purple-red",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-amber-9x16",
+      "path": "images/backgrounds/grad-red-amber-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-amber-9x16.jpg",
+        "grad",
+        "red",
+        "amber",
+        "9x16"
+      ],
+      "description": "background asset: grad-red-amber-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-amber",
+      "path": "images/backgrounds/grad-red-amber.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-amber.jpg",
+        "grad",
+        "red",
+        "amber"
+      ],
+      "description": "background asset: grad-red-amber",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-blue-9x16",
+      "path": "images/backgrounds/grad-red-blue-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-blue-9x16.jpg",
+        "grad",
+        "red",
+        "blue",
+        "9x16"
+      ],
+      "description": "background asset: grad-red-blue-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-blue",
+      "path": "images/backgrounds/grad-red-blue.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-blue.jpg",
+        "grad",
+        "red",
+        "blue"
+      ],
+      "description": "background asset: grad-red-blue",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-cyan-9x16",
+      "path": "images/backgrounds/grad-red-cyan-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-cyan-9x16.jpg",
+        "grad",
+        "red",
+        "cyan",
+        "9x16"
+      ],
+      "description": "background asset: grad-red-cyan-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-cyan",
+      "path": "images/backgrounds/grad-red-cyan.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-cyan.jpg",
+        "grad",
+        "red",
+        "cyan"
+      ],
+      "description": "background asset: grad-red-cyan",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-green-9x16",
+      "path": "images/backgrounds/grad-red-green-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-green-9x16.jpg",
+        "grad",
+        "red",
+        "green",
+        "9x16"
+      ],
+      "description": "background asset: grad-red-green-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-green",
+      "path": "images/backgrounds/grad-red-green.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-green.jpg",
+        "grad",
+        "red",
+        "green"
+      ],
+      "description": "background asset: grad-red-green",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-orange-9x16",
+      "path": "images/backgrounds/grad-red-orange-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-orange-9x16.jpg",
+        "grad",
+        "red",
+        "orange",
+        "9x16"
+      ],
+      "description": "background asset: grad-red-orange-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-orange",
+      "path": "images/backgrounds/grad-red-orange.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-orange.jpg",
+        "grad",
+        "red",
+        "orange"
+      ],
+      "description": "background asset: grad-red-orange",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-pink-9x16",
+      "path": "images/backgrounds/grad-red-pink-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-pink-9x16.jpg",
+        "grad",
+        "red",
+        "pink",
+        "9x16"
+      ],
+      "description": "background asset: grad-red-pink-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-pink",
+      "path": "images/backgrounds/grad-red-pink.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-pink.jpg",
+        "grad",
+        "red",
+        "pink"
+      ],
+      "description": "background asset: grad-red-pink",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-purple-9x16",
+      "path": "images/backgrounds/grad-red-purple-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-purple-9x16.jpg",
+        "grad",
+        "red",
+        "purple",
+        "9x16"
+      ],
+      "description": "background asset: grad-red-purple-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-purple",
+      "path": "images/backgrounds/grad-red-purple.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-purple.jpg",
+        "grad",
+        "red",
+        "purple"
+      ],
+      "description": "background asset: grad-red-purple",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-red-9x16",
+      "path": "images/backgrounds/grad-red-red-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-red-9x16.jpg",
+        "grad",
+        "red",
+        "9x16"
+      ],
+      "description": "background asset: grad-red-red-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-red-red",
+      "path": "images/backgrounds/grad-red-red.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-red-red.jpg",
+        "grad",
+        "red"
+      ],
+      "description": "background asset: grad-red-red",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-amber-9x16",
+      "path": "images/backgrounds/grad-slate-amber-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-amber-9x16.jpg",
+        "grad",
+        "slate",
+        "amber",
+        "9x16"
+      ],
+      "description": "background asset: grad-slate-amber-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-amber",
+      "path": "images/backgrounds/grad-slate-amber.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-amber.jpg",
+        "grad",
+        "slate",
+        "amber"
+      ],
+      "description": "background asset: grad-slate-amber",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-blue-9x16",
+      "path": "images/backgrounds/grad-slate-blue-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-blue-9x16.jpg",
+        "grad",
+        "slate",
+        "blue",
+        "9x16"
+      ],
+      "description": "background asset: grad-slate-blue-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-blue",
+      "path": "images/backgrounds/grad-slate-blue.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-blue.jpg",
+        "grad",
+        "slate",
+        "blue"
+      ],
+      "description": "background asset: grad-slate-blue",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-cyan-9x16",
+      "path": "images/backgrounds/grad-slate-cyan-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-cyan-9x16.jpg",
+        "grad",
+        "slate",
+        "cyan",
+        "9x16"
+      ],
+      "description": "background asset: grad-slate-cyan-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-cyan",
+      "path": "images/backgrounds/grad-slate-cyan.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-cyan.jpg",
+        "grad",
+        "slate",
+        "cyan"
+      ],
+      "description": "background asset: grad-slate-cyan",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-green-9x16",
+      "path": "images/backgrounds/grad-slate-green-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-green-9x16.jpg",
+        "grad",
+        "slate",
+        "green",
+        "9x16"
+      ],
+      "description": "background asset: grad-slate-green-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-green",
+      "path": "images/backgrounds/grad-slate-green.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-green.jpg",
+        "grad",
+        "slate",
+        "green"
+      ],
+      "description": "background asset: grad-slate-green",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-orange-9x16",
+      "path": "images/backgrounds/grad-slate-orange-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-orange-9x16.jpg",
+        "grad",
+        "slate",
+        "orange",
+        "9x16"
+      ],
+      "description": "background asset: grad-slate-orange-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-orange",
+      "path": "images/backgrounds/grad-slate-orange.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-orange.jpg",
+        "grad",
+        "slate",
+        "orange"
+      ],
+      "description": "background asset: grad-slate-orange",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-pink-9x16",
+      "path": "images/backgrounds/grad-slate-pink-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-pink-9x16.jpg",
+        "grad",
+        "slate",
+        "pink",
+        "9x16"
+      ],
+      "description": "background asset: grad-slate-pink-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-pink",
+      "path": "images/backgrounds/grad-slate-pink.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-pink.jpg",
+        "grad",
+        "slate",
+        "pink"
+      ],
+      "description": "background asset: grad-slate-pink",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-purple-9x16",
+      "path": "images/backgrounds/grad-slate-purple-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-purple-9x16.jpg",
+        "grad",
+        "slate",
+        "purple",
+        "9x16"
+      ],
+      "description": "background asset: grad-slate-purple-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-purple",
+      "path": "images/backgrounds/grad-slate-purple.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-purple.jpg",
+        "grad",
+        "slate",
+        "purple"
+      ],
+      "description": "background asset: grad-slate-purple",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-red-9x16",
+      "path": "images/backgrounds/grad-slate-red-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-red-9x16.jpg",
+        "grad",
+        "slate",
+        "red",
+        "9x16"
+      ],
+      "description": "background asset: grad-slate-red-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-grad-slate-red",
+      "path": "images/backgrounds/grad-slate-red.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "grad-slate-red.jpg",
+        "grad",
+        "slate",
+        "red"
+      ],
+      "description": "background asset: grad-slate-red",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-gradient-blue-tech-9x16",
+      "path": "images/backgrounds/gradient-blue-tech-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "gradient-blue-tech-9x16.jpg",
+        "gradient",
+        "blue",
+        "tech",
+        "9x16"
+      ],
+      "description": "background asset: gradient-blue-tech-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-gradient-blue-tech",
+      "path": "images/backgrounds/gradient-blue-tech.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "gradient-blue-tech.jpg",
+        "gradient",
+        "blue",
+        "tech"
+      ],
+      "description": "background asset: gradient-blue-tech",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-gradient-dark-red-9x16",
+      "path": "images/backgrounds/gradient-dark-red-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "gradient-dark-red-9x16.jpg",
+        "gradient",
+        "dark",
+        "red",
+        "9x16"
+      ],
+      "description": "background asset: gradient-dark-red-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-gradient-dark-red",
+      "path": "images/backgrounds/gradient-dark-red.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "gradient-dark-red.jpg",
+        "gradient",
+        "dark",
+        "red"
+      ],
+      "description": "background asset: gradient-dark-red",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-gradient-soft-cool-9x16",
+      "path": "images/backgrounds/gradient-soft-cool-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "gradient-soft-cool-9x16.jpg",
+        "gradient",
+        "soft",
+        "cool",
+        "9x16"
+      ],
+      "description": "background asset: gradient-soft-cool-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-gradient-soft-warm-9x16",
+      "path": "images/backgrounds/gradient-soft-warm-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "gradient-soft-warm-9x16.jpg",
+        "gradient",
+        "soft",
+        "warm",
+        "9x16"
+      ],
+      "description": "background asset: gradient-soft-warm-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-neon-blue-9x16",
+      "path": "images/backgrounds/neon-blue-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "neon-blue-9x16.jpg",
+        "neon",
+        "blue",
+        "9x16"
+      ],
+      "description": "background asset: neon-blue-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-neon-blue",
+      "path": "images/backgrounds/neon-blue.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "neon-blue.jpg",
+        "neon",
+        "blue"
+      ],
+      "description": "background asset: neon-blue",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-neon-cyan-9x16",
+      "path": "images/backgrounds/neon-cyan-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "neon-cyan-9x16.jpg",
+        "neon",
+        "cyan",
+        "9x16"
+      ],
+      "description": "background asset: neon-cyan-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-neon-cyan",
+      "path": "images/backgrounds/neon-cyan.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "neon-cyan.jpg",
+        "neon",
+        "cyan"
+      ],
+      "description": "background asset: neon-cyan",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-neon-green-9x16",
+      "path": "images/backgrounds/neon-green-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "neon-green-9x16.jpg",
+        "neon",
+        "green",
+        "9x16"
+      ],
+      "description": "background asset: neon-green-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-neon-green",
+      "path": "images/backgrounds/neon-green.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "neon-green.jpg",
+        "neon",
+        "green"
+      ],
+      "description": "background asset: neon-green",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-neon-pink-9x16",
+      "path": "images/backgrounds/neon-pink-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "neon-pink-9x16.jpg",
+        "neon",
+        "pink",
+        "9x16"
+      ],
+      "description": "background asset: neon-pink-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-neon-pink",
+      "path": "images/backgrounds/neon-pink.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "neon-pink.jpg",
+        "neon",
+        "pink"
+      ],
+      "description": "background asset: neon-pink",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-neon-purple-9x16",
+      "path": "images/backgrounds/neon-purple-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "neon-purple-9x16.jpg",
+        "neon",
+        "purple",
+        "9x16"
+      ],
+      "description": "background asset: neon-purple-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-neon-purple",
+      "path": "images/backgrounds/neon-purple.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "neon-purple.jpg",
+        "neon",
+        "purple"
+      ],
+      "description": "background asset: neon-purple",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-neon-red-9x16",
+      "path": "images/backgrounds/neon-red-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "neon-red-9x16.jpg",
+        "neon",
+        "red",
+        "9x16"
+      ],
+      "description": "background asset: neon-red-9x16",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-neon-red",
+      "path": "images/backgrounds/neon-red.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "neon-red.jpg",
+        "neon",
+        "red"
+      ],
+      "description": "background asset: neon-red",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-cool-dots",
+      "path": "images/backgrounds/tex-cool-dots.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-cool-dots.jpg",
+        "tex",
+        "cool",
+        "dots"
+      ],
+      "description": "background asset: tex-cool-dots",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-cool-grid",
+      "path": "images/backgrounds/tex-cool-grid.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-cool-grid.jpg",
+        "tex",
+        "cool",
+        "grid"
+      ],
+      "description": "background asset: tex-cool-grid",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-cool-lines",
+      "path": "images/backgrounds/tex-cool-lines.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-cool-lines.jpg",
+        "tex",
+        "cool",
+        "lines"
+      ],
+      "description": "background asset: tex-cool-lines",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-cool-noise",
+      "path": "images/backgrounds/tex-cool-noise.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-cool-noise.jpg",
+        "tex",
+        "cool",
+        "noise"
+      ],
+      "description": "background asset: tex-cool-noise",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-cool-waves",
+      "path": "images/backgrounds/tex-cool-waves.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-cool-waves.jpg",
+        "tex",
+        "cool",
+        "waves"
+      ],
+      "description": "background asset: tex-cool-waves",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-dark-dots",
+      "path": "images/backgrounds/tex-dark-dots.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-dark-dots.jpg",
+        "tex",
+        "dark",
+        "dots"
+      ],
+      "description": "background asset: tex-dark-dots",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-dark-grid",
+      "path": "images/backgrounds/tex-dark-grid.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-dark-grid.jpg",
+        "tex",
+        "dark",
+        "grid"
+      ],
+      "description": "background asset: tex-dark-grid",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-dark-lines",
+      "path": "images/backgrounds/tex-dark-lines.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-dark-lines.jpg",
+        "tex",
+        "dark",
+        "lines"
+      ],
+      "description": "background asset: tex-dark-lines",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-dark-noise",
+      "path": "images/backgrounds/tex-dark-noise.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-dark-noise.jpg",
+        "tex",
+        "dark",
+        "noise"
+      ],
+      "description": "background asset: tex-dark-noise",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-dark-waves",
+      "path": "images/backgrounds/tex-dark-waves.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-dark-waves.jpg",
+        "tex",
+        "dark",
+        "waves"
+      ],
+      "description": "background asset: tex-dark-waves",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-light-dots",
+      "path": "images/backgrounds/tex-light-dots.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-light-dots.jpg",
+        "tex",
+        "light",
+        "dots"
+      ],
+      "description": "background asset: tex-light-dots",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-light-grid",
+      "path": "images/backgrounds/tex-light-grid.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-light-grid.jpg",
+        "tex",
+        "light",
+        "grid"
+      ],
+      "description": "background asset: tex-light-grid",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-light-lines",
+      "path": "images/backgrounds/tex-light-lines.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-light-lines.jpg",
+        "tex",
+        "light",
+        "lines"
+      ],
+      "description": "background asset: tex-light-lines",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-light-noise",
+      "path": "images/backgrounds/tex-light-noise.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-light-noise.jpg",
+        "tex",
+        "light",
+        "noise"
+      ],
+      "description": "background asset: tex-light-noise",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-light-waves",
+      "path": "images/backgrounds/tex-light-waves.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-light-waves.jpg",
+        "tex",
+        "light",
+        "waves"
+      ],
+      "description": "background asset: tex-light-waves",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-mint-dots",
+      "path": "images/backgrounds/tex-mint-dots.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-mint-dots.jpg",
+        "tex",
+        "mint",
+        "dots"
+      ],
+      "description": "background asset: tex-mint-dots",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-mint-grid",
+      "path": "images/backgrounds/tex-mint-grid.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-mint-grid.jpg",
+        "tex",
+        "mint",
+        "grid"
+      ],
+      "description": "background asset: tex-mint-grid",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-mint-lines",
+      "path": "images/backgrounds/tex-mint-lines.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-mint-lines.jpg",
+        "tex",
+        "mint",
+        "lines"
+      ],
+      "description": "background asset: tex-mint-lines",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-mint-noise",
+      "path": "images/backgrounds/tex-mint-noise.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-mint-noise.jpg",
+        "tex",
+        "mint",
+        "noise"
+      ],
+      "description": "background asset: tex-mint-noise",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-mint-waves",
+      "path": "images/backgrounds/tex-mint-waves.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-mint-waves.jpg",
+        "tex",
+        "mint",
+        "waves"
+      ],
+      "description": "background asset: tex-mint-waves",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-warm-dots",
+      "path": "images/backgrounds/tex-warm-dots.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-warm-dots.jpg",
+        "tex",
+        "warm",
+        "dots"
+      ],
+      "description": "background asset: tex-warm-dots",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-warm-grid",
+      "path": "images/backgrounds/tex-warm-grid.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-warm-grid.jpg",
+        "tex",
+        "warm",
+        "grid"
+      ],
+      "description": "background asset: tex-warm-grid",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-warm-lines",
+      "path": "images/backgrounds/tex-warm-lines.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-warm-lines.jpg",
+        "tex",
+        "warm",
+        "lines"
+      ],
+      "description": "background asset: tex-warm-lines",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-warm-noise",
+      "path": "images/backgrounds/tex-warm-noise.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-warm-noise.jpg",
+        "tex",
+        "warm",
+        "noise"
+      ],
+      "description": "background asset: tex-warm-noise",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-tex-warm-waves",
+      "path": "images/backgrounds/tex-warm-waves.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "tex-warm-waves.jpg",
+        "tex",
+        "warm",
+        "waves"
+      ],
+      "description": "background asset: tex-warm-waves",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "background-images-backgrounds-texture-grid-light",
       "path": "images/backgrounds/texture-grid-light.jpg",
       "type": "image",
-      "category": "texture",
-      "tags": ["grid", "light", "texture"],
-      "description": "浅色网格纹理",
-      "license": "ai-generated",
-      "usage": "website-section-bg, dashboard"
+      "category": "background",
+      "tags": [
+        "texture-grid-light.jpg",
+        "texture",
+        "grid",
+        "light"
+      ],
+      "description": "background asset: texture-grid-light",
+      "license": "own",
+      "usage": "background"
     },
     {
-      "id": "img-leadchem-uv-varnish-placeholder",
+      "id": "background-images-backgrounds-texture-noise-light",
+      "path": "images/backgrounds/texture-noise-light.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": [
+        "texture-noise-light.jpg",
+        "texture",
+        "noise",
+        "light"
+      ],
+      "description": "background asset: texture-noise-light",
+      "license": "own",
+      "usage": "background"
+    },
+    {
+      "id": "product-images-products-leadchem-uv-varnish-dark",
+      "path": "images/products/leadchem/uv-varnish-dark.jpg",
+      "type": "image",
+      "category": "product",
+      "tags": [
+        "leadchem",
+        "uv-varnish-dark.jpg",
+        "uv",
+        "varnish",
+        "dark"
+      ],
+      "description": "product asset: uv-varnish-dark",
+      "license": "own",
+      "usage": "product"
+    },
+    {
+      "id": "product-images-products-leadchem-uv-varnish-gradient",
+      "path": "images/products/leadchem/uv-varnish-gradient.jpg",
+      "type": "image",
+      "category": "product",
+      "tags": [
+        "leadchem",
+        "uv-varnish-gradient.jpg",
+        "uv",
+        "varnish",
+        "gradient"
+      ],
+      "description": "product asset: uv-varnish-gradient",
+      "license": "own",
+      "usage": "product"
+    },
+    {
+      "id": "product-images-products-leadchem-uv-varnish-light",
+      "path": "images/products/leadchem/uv-varnish-light.jpg",
+      "type": "image",
+      "category": "product",
+      "tags": [
+        "leadchem",
+        "uv-varnish-light.jpg",
+        "uv",
+        "varnish",
+        "light"
+      ],
+      "description": "product asset: uv-varnish-light",
+      "license": "own",
+      "usage": "product"
+    },
+    {
+      "id": "product-images-products-leadchem-uv-varnish-neon",
+      "path": "images/products/leadchem/uv-varnish-neon.jpg",
+      "type": "image",
+      "category": "product",
+      "tags": [
+        "leadchem",
+        "uv-varnish-neon.jpg",
+        "uv",
+        "varnish",
+        "neon"
+      ],
+      "description": "product asset: uv-varnish-neon",
+      "license": "own",
+      "usage": "product"
+    },
+    {
+      "id": "product-images-products-leadchem-uv-varnish-placeholder",
       "path": "images/products/leadchem/uv-varnish-placeholder.jpg",
       "type": "image",
       "category": "product",
-      "tags": ["leadchem", "uv-varnish", "placeholder"],
-      "description": "UV 光油产品占位图（待替换实拍）",
-      "license": "ai-generated",
-      "usage": "product-page-placeholder"
+      "tags": [
+        "leadchem",
+        "uv-varnish-placeholder.jpg",
+        "uv",
+        "varnish",
+        "placeholder"
+      ],
+      "description": "product asset: uv-varnish-placeholder",
+      "license": "own",
+      "usage": "product"
     },
     {
-      "id": "img-lisheng-wood-adhesive-placeholder",
+      "id": "product-images-products-lisheng-wood-adhesive-dark",
+      "path": "images/products/lisheng/wood-adhesive-dark.jpg",
+      "type": "image",
+      "category": "product",
+      "tags": [
+        "lisheng",
+        "wood-adhesive-dark.jpg",
+        "wood",
+        "adhesive",
+        "dark"
+      ],
+      "description": "product asset: wood-adhesive-dark",
+      "license": "own",
+      "usage": "product"
+    },
+    {
+      "id": "product-images-products-lisheng-wood-adhesive-gradient",
+      "path": "images/products/lisheng/wood-adhesive-gradient.jpg",
+      "type": "image",
+      "category": "product",
+      "tags": [
+        "lisheng",
+        "wood-adhesive-gradient.jpg",
+        "wood",
+        "adhesive",
+        "gradient"
+      ],
+      "description": "product asset: wood-adhesive-gradient",
+      "license": "own",
+      "usage": "product"
+    },
+    {
+      "id": "product-images-products-lisheng-wood-adhesive-light",
+      "path": "images/products/lisheng/wood-adhesive-light.jpg",
+      "type": "image",
+      "category": "product",
+      "tags": [
+        "lisheng",
+        "wood-adhesive-light.jpg",
+        "wood",
+        "adhesive",
+        "light"
+      ],
+      "description": "product asset: wood-adhesive-light",
+      "license": "own",
+      "usage": "product"
+    },
+    {
+      "id": "product-images-products-lisheng-wood-adhesive-neon",
+      "path": "images/products/lisheng/wood-adhesive-neon.jpg",
+      "type": "image",
+      "category": "product",
+      "tags": [
+        "lisheng",
+        "wood-adhesive-neon.jpg",
+        "wood",
+        "adhesive",
+        "neon"
+      ],
+      "description": "product asset: wood-adhesive-neon",
+      "license": "own",
+      "usage": "product"
+    },
+    {
+      "id": "product-images-products-lisheng-wood-adhesive-placeholder",
       "path": "images/products/lisheng/wood-adhesive-placeholder.jpg",
       "type": "image",
       "category": "product",
-      "tags": ["lisheng", "wood-adhesive", "placeholder"],
-      "description": "木工胶产品占位图（待替换实拍）",
-      "license": "ai-generated",
-      "usage": "product-page-placeholder"
+      "tags": [
+        "lisheng",
+        "wood-adhesive-placeholder.jpg",
+        "wood",
+        "adhesive",
+        "placeholder"
+      ],
+      "description": "product asset: wood-adhesive-placeholder",
+      "license": "own",
+      "usage": "product"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-bolt-1",
+      "path": "ui-assets/icons/icon-bolt-1.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-bolt-1.png",
+        "icon",
+        "bolt"
+      ],
+      "description": "icon asset: icon-bolt-1",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-bolt-2",
+      "path": "ui-assets/icons/icon-bolt-2.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-bolt-2.png",
+        "icon",
+        "bolt"
+      ],
+      "description": "icon asset: icon-bolt-2",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-bolt-3",
+      "path": "ui-assets/icons/icon-bolt-3.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-bolt-3.png",
+        "icon",
+        "bolt"
+      ],
+      "description": "icon asset: icon-bolt-3",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-bolt-4",
+      "path": "ui-assets/icons/icon-bolt-4.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-bolt-4.png",
+        "icon",
+        "bolt"
+      ],
+      "description": "icon asset: icon-bolt-4",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-box-1",
+      "path": "ui-assets/icons/icon-box-1.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-box-1.png",
+        "icon",
+        "box"
+      ],
+      "description": "icon asset: icon-box-1",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-box-2",
+      "path": "ui-assets/icons/icon-box-2.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-box-2.png",
+        "icon",
+        "box"
+      ],
+      "description": "icon asset: icon-box-2",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-box-3",
+      "path": "ui-assets/icons/icon-box-3.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-box-3.png",
+        "icon",
+        "box"
+      ],
+      "description": "icon asset: icon-box-3",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-box-4",
+      "path": "ui-assets/icons/icon-box-4.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-box-4.png",
+        "icon",
+        "box"
+      ],
+      "description": "icon asset: icon-box-4",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-drop-1",
+      "path": "ui-assets/icons/icon-drop-1.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-drop-1.png",
+        "icon",
+        "drop"
+      ],
+      "description": "icon asset: icon-drop-1",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-drop-2",
+      "path": "ui-assets/icons/icon-drop-2.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-drop-2.png",
+        "icon",
+        "drop"
+      ],
+      "description": "icon asset: icon-drop-2",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-drop-3",
+      "path": "ui-assets/icons/icon-drop-3.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-drop-3.png",
+        "icon",
+        "drop"
+      ],
+      "description": "icon asset: icon-drop-3",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-drop-4",
+      "path": "ui-assets/icons/icon-drop-4.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-drop-4.png",
+        "icon",
+        "drop"
+      ],
+      "description": "icon asset: icon-drop-4",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-factory-1",
+      "path": "ui-assets/icons/icon-factory-1.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-factory-1.png",
+        "icon",
+        "factory"
+      ],
+      "description": "icon asset: icon-factory-1",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-factory-2",
+      "path": "ui-assets/icons/icon-factory-2.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-factory-2.png",
+        "icon",
+        "factory"
+      ],
+      "description": "icon asset: icon-factory-2",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-factory-3",
+      "path": "ui-assets/icons/icon-factory-3.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-factory-3.png",
+        "icon",
+        "factory"
+      ],
+      "description": "icon asset: icon-factory-3",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-factory-4",
+      "path": "ui-assets/icons/icon-factory-4.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-factory-4.png",
+        "icon",
+        "factory"
+      ],
+      "description": "icon asset: icon-factory-4",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-gear-1",
+      "path": "ui-assets/icons/icon-gear-1.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-gear-1.png",
+        "icon",
+        "gear"
+      ],
+      "description": "icon asset: icon-gear-1",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-gear-2",
+      "path": "ui-assets/icons/icon-gear-2.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-gear-2.png",
+        "icon",
+        "gear"
+      ],
+      "description": "icon asset: icon-gear-2",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-gear-3",
+      "path": "ui-assets/icons/icon-gear-3.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-gear-3.png",
+        "icon",
+        "gear"
+      ],
+      "description": "icon asset: icon-gear-3",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-gear-4",
+      "path": "ui-assets/icons/icon-gear-4.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-gear-4.png",
+        "icon",
+        "gear"
+      ],
+      "description": "icon asset: icon-gear-4",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-globe-1",
+      "path": "ui-assets/icons/icon-globe-1.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-globe-1.png",
+        "icon",
+        "globe"
+      ],
+      "description": "icon asset: icon-globe-1",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-globe-2",
+      "path": "ui-assets/icons/icon-globe-2.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-globe-2.png",
+        "icon",
+        "globe"
+      ],
+      "description": "icon asset: icon-globe-2",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-globe-3",
+      "path": "ui-assets/icons/icon-globe-3.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-globe-3.png",
+        "icon",
+        "globe"
+      ],
+      "description": "icon asset: icon-globe-3",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-globe-4",
+      "path": "ui-assets/icons/icon-globe-4.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-globe-4.png",
+        "icon",
+        "globe"
+      ],
+      "description": "icon asset: icon-globe-4",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-leaf-1",
+      "path": "ui-assets/icons/icon-leaf-1.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-leaf-1.png",
+        "icon",
+        "leaf"
+      ],
+      "description": "icon asset: icon-leaf-1",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-leaf-2",
+      "path": "ui-assets/icons/icon-leaf-2.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-leaf-2.png",
+        "icon",
+        "leaf"
+      ],
+      "description": "icon asset: icon-leaf-2",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-leaf-3",
+      "path": "ui-assets/icons/icon-leaf-3.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-leaf-3.png",
+        "icon",
+        "leaf"
+      ],
+      "description": "icon asset: icon-leaf-3",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-leaf-4",
+      "path": "ui-assets/icons/icon-leaf-4.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-leaf-4.png",
+        "icon",
+        "leaf"
+      ],
+      "description": "icon asset: icon-leaf-4",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-shield-1",
+      "path": "ui-assets/icons/icon-shield-1.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-shield-1.png",
+        "icon",
+        "shield"
+      ],
+      "description": "icon asset: icon-shield-1",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-shield-2",
+      "path": "ui-assets/icons/icon-shield-2.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-shield-2.png",
+        "icon",
+        "shield"
+      ],
+      "description": "icon asset: icon-shield-2",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-shield-3",
+      "path": "ui-assets/icons/icon-shield-3.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-shield-3.png",
+        "icon",
+        "shield"
+      ],
+      "description": "icon asset: icon-shield-3",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-shield-4",
+      "path": "ui-assets/icons/icon-shield-4.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-shield-4.png",
+        "icon",
+        "shield"
+      ],
+      "description": "icon asset: icon-shield-4",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-star-1",
+      "path": "ui-assets/icons/icon-star-1.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-star-1.png",
+        "icon",
+        "star"
+      ],
+      "description": "icon asset: icon-star-1",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-star-2",
+      "path": "ui-assets/icons/icon-star-2.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-star-2.png",
+        "icon",
+        "star"
+      ],
+      "description": "icon asset: icon-star-2",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-star-3",
+      "path": "ui-assets/icons/icon-star-3.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-star-3.png",
+        "icon",
+        "star"
+      ],
+      "description": "icon asset: icon-star-3",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-star-4",
+      "path": "ui-assets/icons/icon-star-4.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-star-4.png",
+        "icon",
+        "star"
+      ],
+      "description": "icon asset: icon-star-4",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-truck-1",
+      "path": "ui-assets/icons/icon-truck-1.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-truck-1.png",
+        "icon",
+        "truck"
+      ],
+      "description": "icon asset: icon-truck-1",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-truck-2",
+      "path": "ui-assets/icons/icon-truck-2.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-truck-2.png",
+        "icon",
+        "truck"
+      ],
+      "description": "icon asset: icon-truck-2",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-truck-3",
+      "path": "ui-assets/icons/icon-truck-3.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-truck-3.png",
+        "icon",
+        "truck"
+      ],
+      "description": "icon asset: icon-truck-3",
+      "license": "own",
+      "usage": "icon"
+    },
+    {
+      "id": "icon-ui-assets-icons-icon-truck-4",
+      "path": "ui-assets/icons/icon-truck-4.png",
+      "type": "image",
+      "category": "icon",
+      "tags": [
+        "icon-truck-4.png",
+        "icon",
+        "truck"
+      ],
+      "description": "icon asset: icon-truck-4",
+      "license": "own",
+      "usage": "icon"
     }
   ],
   "license_rules": {
