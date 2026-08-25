@@ -1,8 +1,8 @@
 {
-  "repository": "VINNIECOCO/vibe-assets",
+  "repository": "VINNIECOCO/visualassets",
   "version": "1.0.0",
-  "base_url_raw": "https://raw.githubusercontent.com/VINNIECOCO/vibe-assets/main",
-  "base_url_cdn": "https://cdn.jsdelivr.net/gh/VINNIECOCO/vibe-assets@main",
+  "base_url_raw": "https://raw.githubusercontent.com/VINNIECOCO/visualassets/main",
+  "base_url_cdn": "https://cdn.jsdelivr.net/gh/VINNIECOCO/visualassets@main",
   "usage": "AI 建站/剪辑时读取本文件获取素材清单，拼 base_url + path 引用。",
   "assets": [
     {

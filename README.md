@@ -26,20 +26,20 @@ vibe-assets/
 
 ### 图片（直接可用）
 ```
-Raw:    https://raw.githubusercontent.com/VINNIECOCO/vibe-assets/main/assets/products/uv-varnish/hero.jpg
-CDN:    https://cdn.jsdelivr.net/gh/VINNIECOCO/vibe-assets@main/assets/products/uv-varnish/hero.jpg
+Raw:    https://raw.githubusercontent.com/VINNIECOCO/visualassets/main/assets/products/uv-varnish/hero.jpg
+CDN:    https://cdn.jsdelivr.net/gh/VINNIECOCO/visualassets@main/assets/products/uv-varnish/hero.jpg
 ```
 
 ### 视频（建站/剪辑用）
 ```
-Raw:    https://raw.githubusercontent.com/VINNIECOCO/vibe-assets/main/assets/factory/line-01.mp4
-CDN:    https://cdn.jsdelivr.net/gh/VINNIECOCO/vibe-assets@main/assets/factory/line-01.mp4
+Raw:    https://raw.githubusercontent.com/VINNIECOCO/visualassets/main/assets/factory/line-01.mp4
+CDN:    https://cdn.jsdelivr.net/gh/VINNIECOCO/visualassets@main/assets/factory/line-01.mp4
 ```
 
 ### 在 HTML/代码中引用
 ```html
-<img src="https://cdn.jsdelivr.net/gh/VINNIECOCO/vibe-assets@main/assets/products/uv-varnish/hero.jpg">
-<video src="https://raw.githubusercontent.com/VINNIECOCO/vibe-assets/main/assets/factory/line-01.mp4"></video>
+<img src="https://cdn.jsdelivr.net/gh/VINNIECOCO/visualassets@main/assets/products/uv-varnish/hero.jpg">
+<video src="https://raw.githubusercontent.com/VINNIECOCO/visualassets/main/assets/factory/line-01.mp4"></video>
 ```
 
 ## 📝 素材命名规范（AI 可读）
@@ -59,8 +59,8 @@ CDN:    https://cdn.jsdelivr.net/gh/VINNIECOCO/vibe-assets@main/assets/factory/l
 ```json
 {
   "repository": "vibe-assets",
-  "base_url_raw": "https://raw.githubusercontent.com/VINNIECOCO/vibe-assets/main",
-  "base_url_cdn": "https://cdn.jsdelivr.net/gh/VINNIECOCO/vibe-assets@main",
+  "base_url_raw": "https://raw.githubusercontent.com/VINNIECOCO/visualassets/main",
+  "base_url_cdn": "https://cdn.jsdelivr.net/gh/VINNIECOCO/visualassets@main",
   "assets": [
     {
       "id": "uv-varnish-hero",

@@ -1,7 +1,7 @@
 # 🎨 AI 素材生成提示词库（Prompt Library · 大规模版）
 
 > 用途：在 Midjourney / Flux / ChatGPT-Image / Ideogram / 即梦 / 可灵 中生成高质量素材。
-> 规模：**160 条提示词**，覆盖 8 大类。生成后上传 vibe-assets。
+> 规模：**160 条提示词**，覆盖 8 大类。生成后上传 visualassets。
 > 用法：复制提示词 → AI 图像工具生成 → `./scripts/upload.sh <文件> <标签> <描述>`
 > 技巧：Midjourney 加 `--ar 9:16` 竖屏 / `--ar 16:9` 横屏 / `--ar 1:1` 方形
 
