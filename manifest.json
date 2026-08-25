@@ -17,11 +17,132 @@
     "ui-assets/logos": "品牌 logo",
     "ui-assets/fonts": "字体"
   },
-  "assets": [],
+  "assets": [
+    {
+      "id": "bg-gradient-dark-red",
+      "path": "images/backgrounds/gradient-dark-red.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": ["gradient", "dark", "red", "premium"],
+      "description": "深红渐变背景（横屏 1920x1080）",
+      "license": "ai-generated",
+      "usage": "website-hero, video-background"
+    },
+    {
+      "id": "bg-gradient-blue-tech",
+      "path": "images/backgrounds/gradient-blue-tech.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": ["gradient", "blue", "tech"],
+      "description": "科技蓝渐变背景（横屏）",
+      "license": "ai-generated",
+      "usage": "website-hero, video-background"
+    },
+    {
+      "id": "bg-gradient-dark-red-9x16",
+      "path": "images/backgrounds/gradient-dark-red-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": ["gradient", "dark", "red", "vertical"],
+      "description": "深红渐变背景（竖屏 9:16，TikTok 适用）",
+      "license": "ai-generated",
+      "usage": "tiktok-video, reels, story"
+    },
+    {
+      "id": "bg-gradient-blue-tech-9x16",
+      "path": "images/backgrounds/gradient-blue-tech-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": ["gradient", "blue", "tech", "vertical"],
+      "description": "科技蓝渐变背景（竖屏 9:16）",
+      "license": "ai-generated",
+      "usage": "tiktok-video, reels, story"
+    },
+    {
+      "id": "bg-gradient-soft-warm-9x16",
+      "path": "images/backgrounds/gradient-soft-warm-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": ["gradient", "soft", "warm", "vertical"],
+      "description": "柔和暖色渐变（竖屏）",
+      "license": "ai-generated",
+      "usage": "tiktok-video, lifestyle"
+    },
+    {
+      "id": "bg-gradient-soft-cool-9x16",
+      "path": "images/backgrounds/gradient-soft-cool-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": ["gradient", "soft", "cool", "vertical"],
+      "description": "柔和冷色渐变（竖屏）",
+      "license": "ai-generated",
+      "usage": "tiktok-video, lifestyle"
+    },
+    {
+      "id": "bg-dark-neon-1",
+      "path": "images/backgrounds/dark-neon-1.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": ["neon", "dark", "glow", "cyberpunk"],
+      "description": "深色霓虹光晕背景（横屏）",
+      "license": "ai-generated",
+      "usage": "website-hero, gaming-style"
+    },
+    {
+      "id": "bg-dark-neon-1-9x16",
+      "path": "images/backgrounds/dark-neon-1-9x16.jpg",
+      "type": "image",
+      "category": "background",
+      "tags": ["neon", "dark", "glow", "vertical"],
+      "description": "深色霓虹光晕背景（竖屏 9:16）",
+      "license": "ai-generated",
+      "usage": "tiktok-video, gaming-style"
+    },
+    {
+      "id": "bg-texture-noise-light",
+      "path": "images/backgrounds/texture-noise-light.jpg",
+      "type": "image",
+      "category": "texture",
+      "tags": ["noise", "light", "texture"],
+      "description": "浅色噪点纹理",
+      "license": "ai-generated",
+      "usage": "website-section-bg"
+    },
+    {
+      "id": "bg-texture-grid-light",
+      "path": "images/backgrounds/texture-grid-light.jpg",
+      "type": "image",
+      "category": "texture",
+      "tags": ["grid", "light", "texture"],
+      "description": "浅色网格纹理",
+      "license": "ai-generated",
+      "usage": "website-section-bg, dashboard"
+    },
+    {
+      "id": "img-leadchem-uv-varnish-placeholder",
+      "path": "images/products/leadchem/uv-varnish-placeholder.jpg",
+      "type": "image",
+      "category": "product",
+      "tags": ["leadchem", "uv-varnish", "placeholder"],
+      "description": "UV 光油产品占位图（待替换实拍）",
+      "license": "ai-generated",
+      "usage": "product-page-placeholder"
+    },
+    {
+      "id": "img-lisheng-wood-adhesive-placeholder",
+      "path": "images/products/lisheng/wood-adhesive-placeholder.jpg",
+      "type": "image",
+      "category": "product",
+      "tags": ["lisheng", "wood-adhesive", "placeholder"],
+      "description": "木工胶产品占位图（待替换实拍）",
+      "license": "ai-generated",
+      "usage": "product-page-placeholder"
+    }
+  ],
   "license_rules": {
     "own": "自有实拍，自由使用",
     "free-stock": "免费素材库（Pexels/Pixabay），商业可用",
-    "ai-generated": "AI 生成，标注工具",
+    "ai-generated": "AI 生成（PIL 程序化），标注工具",
     "cc0": "CC0 公共领域",
     "cc-by": "CC BY 需署名"
   }
