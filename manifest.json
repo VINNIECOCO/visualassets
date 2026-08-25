@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "updated": "2026-08-18",
+  "purpose": "vibe-coding 建站 + AI 视频剪辑视觉素材中枢",
+  "readme": "README.md",
+  "structure": {
+    "images/products/leadchem": "LeadChem UV/水性材料产品图",
+    "images/products/lisheng": "力圣木工胶产品图",
+    "images/factory": "工厂/车间实拍",
+    "images/backgrounds": "背景/纹理/渐变",
+    "images/ai-generated": "AI 生成素材",
+    "videos/broll": "B-roll 视频素材",
+    "videos/product-demos": "产品演示视频",
+    "audio/bgm": "免版权背景音乐",
+    "audio/sfx": "音效",
+    "ui-assets/icons": "图标",
+    "ui-assets/logos": "品牌 logo",
+    "ui-assets/fonts": "字体"
+  },
+  "assets": [],
+  "license_rules": {
+    "own": "自有实拍，自由使用",
+    "free-stock": "免费素材库（Pexels/Pixabay），商业可用",
+    "ai-generated": "AI 生成，标注工具",
+    "cc0": "CC0 公共领域",
+    "cc-by": "CC BY 需署名"
+  }
+}
