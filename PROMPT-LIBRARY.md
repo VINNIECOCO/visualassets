@@ -172,3 +172,34 @@ git add -A && git commit -m "添加素材: UV 光油产品主图" && git push
 ```
 
 > AI 建站/剪辑时读 index.json 即可发现新素材。
+
+---
+
+## 七、灵感源与提示词参考（持续更新）
+
+### 7.1 Telegram 灵感群
+- **@midjourney_show**（31.8K 订阅，9.55K 作品 + 中英双语提示词）
+- 价值：优秀作品即学即用，提示词带结构解析
+- 用法：看到喜欢的作品 → 复制提示词 → 替换主体/场景 → 生成商业素材
+- 抓取方式：`curl https://t.me/s/midjourney_show` 解析消息文本（见 scripts/fetch_inspiration.py）
+- 注意：群里偶有推广/广告噪音，专注作品和提示词
+
+### 7.2 从群里提取的产品摄影提示词（可直接借鉴）
+
+**瓶装产品 top-down 摄影**（类似 UV 光油/涂料瓶主图）：
+```
+Premium top down editorial still life photograph for [产品名]. Use the exact provided bottle as reference - preserve [瓶身特征: amber glass/black dropper/label], proportions perfectly. Place bottle [构图位置], with [辅助元素: seeds/leaves/lighting], [光影风格: soft natural light / dramatic studio light], [背景: neutral linen / dark slate / marble], [额外细节: reflection, shadow, texture]
+```
+
+**模块化提示词技巧（群里作品常用）**：
+- 用 [方括号] 占位主体/场景/动作 → 一条提示词可换任意产品
+- 例：一位[年龄/身份]的[主体]穿着[服装]，站在[光线条件]的[街道/场景]中，[风格]，[光影氛围]
+- 中文提示词生成效果同样好（群里大量中文提示词案例）
+
+### 7.3 风格参考关键词（从群里作品提取）
+| 风格 | 关键词 |
+|------|--------|
+| 电影感 | cinematic lighting, dramatic shadows, golden hour, film grain |
+| 高级产品 | editorial photography, premium, studio lighting, shallow depth of field |
+| 科技感 | futuristic, neon glow, dark background, reflective surfaces |
+| 写实工业 | photorealistic, industrial, clean workshop, professional |
